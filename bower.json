@@ -1,0 +1,33 @@
+{
+  "name": "SuperTypeahead",
+  "version": "0.0.1",
+  "description": "Typeahead directive which consist two typeheads and divide from dot character.",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "supertypeahead",
+    "stypeahead"
+  ],
+  "authors": [
+    "Hasitha Prabhath Gamage and Uwin Withana"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-strap": "~2.2.4",
+    "bootstrap": "~3.3.4",
+    "angular-animate": "~1.4.0",
+    "angular-sanitize": "~1.4.0",
+    "angular-motion": "~0.4.2",
+    "components-font-awesome": "~4.3.0"
+  }
+}

@@ -1,0 +1,5 @@
+<label class="st-boxHolder" ng-click="divClickFocus()" ng-focus="divClickFocus()">
+    <input id="boxOne" type="text" ng-model="boxOne" ng-focus="infocus()" ng-blur="outfocus()" ng-keydown="boxOneHandler($event)" ng-focus="boxOneFocus()" bs-options="icon as icon.label for icon in boxOneObject" bs-typeahead data-min-length="0" data-html="1" data-auto-select="true" data-animation="am-flip-x" onfocusout="this.style.width = ((this.value.length + 1) * 8) + 'px';" onkeyup="this.style.width = ((this.value.length + 1) * 8) + 'px';" />
+    <span ng-show="dotVisibler">.</span>
+    <input id="boxTwo" type="text" ng-model="boxTwo" ng-focus="infocus()" ng-blur="outfocus()" ng-keydown="boxTwoHandler($event)" ng-focus="boxTwoFocus()" bs-options="icon as icon.label for icon in boxOneObject" bs-typeahead data-min-length="0" data-html="1" data-auto-select="true" data-animation="am-flip-x" onfocusout="this.style.width = ((this.value.length + 1) * 8) + 'px';" onkeyup="this.style.width = ((this.value.length + 1) * 8) + 'px';" />
+</label>
